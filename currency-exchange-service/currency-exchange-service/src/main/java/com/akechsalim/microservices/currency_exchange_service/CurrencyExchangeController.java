@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @RestController
 public class CurrencyExchangeController {
 
-    private Environment environment;
+    private final Environment environment;
 
     public CurrencyExchangeController(Environment environment) {
         this.environment = environment;
