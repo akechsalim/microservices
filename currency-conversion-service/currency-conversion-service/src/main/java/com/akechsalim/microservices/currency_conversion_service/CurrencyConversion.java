@@ -4,11 +4,9 @@ import java.math.BigDecimal;
 
 public class CurrencyConversion {
     private Long id;
-
     //    @Column(name = "currency_from")
     private String from;
 //    @Column(name = "currency_to")
-
     private String to;
     private BigDecimal quantity;
     private BigDecimal conversionMultiple;
